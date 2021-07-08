@@ -2,7 +2,7 @@
  
 Desafio #1 do Codelândia proposto pelo [Iuri Code](https://github.com/iuricode/desafios-codelandia). Um projeto de desafios com intuito de melhorar as suas habilidades fazendo pequenos projetos semanais!
 
-# Desafio #1 - Blog
+## Desafio #1 - Blog
 
 - Desenvolver um mini-blog com layout responsivo e animação. 
 
@@ -12,11 +12,11 @@ Desafio #1 do Codelândia proposto pelo [Iuri Code](https://github.com/iuricode/
 - CSS
 - JavaScript (Ainda não implementado)
 
-##Resultado
+## Resultado
 
 ![Desafio 1 - Blog](Desafio1-Codelandia.png)
 
-##Autora
+## Autora
 
 Feito com 🧡 por Priscila Zeferino.
 
