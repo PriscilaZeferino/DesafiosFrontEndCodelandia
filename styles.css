@@ -1,0 +1,141 @@
+:root {
+    --blue: #3EA1DB;
+    --blue-dark: #574AE8;
+    --white: #FFF;
+  
+    --title: #313131;
+    --text: #B6B6B6;
+    
+    --linear: linear-gradient(90deg, #574AE8 0%, #3EA1DB 100%);
+    --background-content: #F3F5F7;
+    --shadow: rgba(19, 19, 31, 0.05);
+    
+    --search-background: rgba(255, 255, 255, 0.2);
+    --search-placeholder: rgba(255, 255, 255, 0.5);
+
+  }
+  
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+
+  background-color: var(--background-content);
+}
+
+.header {
+  background-image: var(--linear);
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 64px;
+  padding-bottom: 48px;
+
+  color: var(--white);
+}
+
+.headerTitle {
+  display: flex;
+  justify-content: space-between;
+} 
+
+.headerTitle span {
+  word-spacing: 10px;
+}
+
+.search {
+  display: flex;
+  padding-top: 30px;
+}
+
+.search .iconify{
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding-left: 10px;
+  width: 10%;
+  height: 50px;
+  background: var(--search-background);
+}
+
+.search input {
+  padding: 10px;
+  width: 100%;
+  height: auto;
+
+  border: 1px transparent;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: var(--search-background);
+
+  font-family: 'Inter', sans-serif;
+
+}
+
+::-webkit-input-placeholder {
+  color: var(--search-placeholder);
+}
+
+:-moz-placeholder { /* Firefox 18- */
+  color: var(--search-placeholder);
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+  color: var(--search-placeholder);
+
+}
+
+:-ms-input-placeholder {  
+  color: var(--search-placeholder);
+}
+
+.content {
+  background-color: var(--background-content);
+  padding-top: 30px;
+}
+
+article {
+  margin: 25px;
+  padding: 15px;
+  background-color: var(--white);
+  box-shadow: 0 0 10px var(--shadow);
+  border-radius: 5px;
+}
+
+.titleArticle {
+  display: flex;
+  justify-content: space-between;
+  
+  padding-top: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.titleArticle .date {
+  color: var(--text);
+}
+
+.titleArticle img {
+  fill: var(--blue-dark);
+}
+
+.textArticle {
+  padding-top: 40px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 16px;
+}
+
+.textArticle h3 {
+  font-size: 18px;
+  color: var(--title);
+  padding-bottom: 24px;
+}
+
+.textArticle p {
+  color: var(--text);
+}
