@@ -36,6 +36,7 @@ body {
   padding-top: 64px;
   padding-bottom: 48px;
 
+  font-size: 18px;
   color: var(--white);
 }
 
@@ -57,7 +58,7 @@ body {
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
   padding-left: 10px;
-  width: 10%;
+  width: 50px;
   height: 50px;
   background: var(--search-background);
 }
@@ -73,7 +74,7 @@ body {
   background-color: var(--search-background);
 
   font-family: 'Inter', sans-serif;
-
+  font-weight: 500;
 }
 
 ::-webkit-input-placeholder {
@@ -138,4 +139,52 @@ article {
 
 .textArticle p {
   color: var(--text);
+}
+
+@media (min-width: 1024px) {
+
+  .header {
+    padding-right: 270px;
+    padding-left: 270px;
+    padding-top: 41px;
+    padding-bottom: 42px;
+  
+    font-size: 18px;
+  }
+
+  .search {
+    padding-top: 78px;
+  }
+
+  article {
+    margin-left: 270px;
+    margin-right: 270px;
+
+    padding-top: 28px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 32px;
+
+  }
+
+  .titleArticle {
+    font-size: 16px;
+  }
+
+  .textArticle {
+    padding-top: 28px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .textArticle h3 {
+    font-size: 26px;
+    color: var(--title);
+    padding-bottom: 25px;
+  }
+
+  .textArticle p {
+    font-size: 18px;
+  }
+
 }
