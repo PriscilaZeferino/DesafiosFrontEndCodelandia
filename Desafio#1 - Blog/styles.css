@@ -119,10 +119,10 @@ article {
 .titleArticle .date {
   color: var(--text);
 }
-
+/* 
 .titleArticle img {
-  fill: var(--blue-dark);
-}
+  background-color: var(--blue-dark);
+} */
 
 .textArticle {
   padding-top: 40px;
