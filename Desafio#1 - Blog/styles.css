@@ -63,6 +63,10 @@ body {
   background: var(--search-background);
 }
 
+.icon-search {
+  color: var(--white)
+}
+
 .search input {
   padding: 10px;
   width: 100%;
@@ -119,10 +123,11 @@ article {
 .titleArticle .date {
   color: var(--text);
 }
-/* 
-.titleArticle img {
-  background-color: var(--blue-dark);
-} */
+
+.heart{
+  color: var(--blue-dark)
+}
+
 
 .textArticle {
   padding-top: 40px;
@@ -140,6 +145,8 @@ article {
 .textArticle p {
   color: var(--text);
 }
+
+
 
 @media (min-width: 1024px) {
 

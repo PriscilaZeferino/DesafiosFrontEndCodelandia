@@ -19,55 +19,72 @@
                 <span>Codelândia</span>
                 <span>Blog</span></div>
             <div class="search">
-                <span class="iconify" data-inline="false" data-icon="ant-design:search-outlined" style="color: #ffffff;"></span>
+                <span class="iconify icon-search" data-inline="false" data-icon="ant-design:search-outlined"></span>
                 <input type="text" placeholder="Pesquisar no blog">
             </div>
         </div>
+        
         <div class="content">
-            <article>
+            <article class="container">
                 <div class="titleArticle">
                     <span class="date">02 de jul, 2021</span>
-                    <img src="./img/heart-regular.svg" alt="Pesquisar" width="15px" height="15px">    
+                    <span class="iconify icon-search" data-inline="false" data-icon="ant-design:search-outlined"></span>
                 </div>
                 <div class="textArticle">
-                    <h3>Agora é oficial: O windows 11 está vindo!</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vestibulum auctor est. Nam vitae finibus ante. Duis lobortis tellus vel diam fringilla, eu ullamcorper ex iaculis.</p>
+                    <h3 class="title">Agora é oficial: O windows 11 está vindo!</h3>
+                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quas molestiae consequatur corrupti perferendis, tenetur earum ea eius vitae quia laboriosam atque explicabo eligendi quod beatae culpa molestias architecto inventore.</p>
                 </div>
             </article>
 
-            <article>
+            <article class="container">
                 <div class="titleArticle">
                     <span class="date">02 de jul, 2021</span>
-                    <img src="./img/heart-regular.svg" alt="Pesquisar" width="15px" height="15px">    
+                    <span class="iconify icon-search" data-inline="false" data-icon="ant-design:search-outlined"></span>
                 </div>
                 <div class="textArticle">
-                    <h3>Tim Berners-Lee vai leiloar código-fonte da web!</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quas molestiae consequatur corrupti perferendis, tenetur earum ea eius vitae quia laboriosam atque explicabo eligendi quod beatae culpa molestias architecto inventore.</p>
+                    <h3 class="title">Tim Berners-Lee vai leiloar código-fonte da web!</h3>
+                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quas molestiae consequatur corrupti perferendis, tenetur earum ea eius vitae quia laboriosam atque explicabo eligendi quod beatae culpa molestias architecto inventore.</p>
                 </div>
             </article>
 
-            <article>
+            <article class="container">
                 <div class="titleArticle">
                     <span class="date">02 de jul, 2021</span>
-                    <img src="./img/heart-regular.svg" alt="Pesquisar" width="15px" height="15px">    
+                    <span class="iconify icon-search" data-inline="false" data-icon="ant-design:search-outlined"></span>
                 </div>
                 <div class="textArticle">
-                    <h3>Tem firefox novo no pedaço e você vai querer migrar</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quas molestiae consequatur corrupti perferendis, tenetur earum ea eius vitae quia laboriosam atque explicabo eligendi quod beatae culpa molestias architecto inventore.</p>
+                    <h3 class="title">Tem firefox novo no pedaço e você vai querer migrar</h3>
+                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quas molestiae consequatur corrupti perferendis, tenetur earum ea eius vitae quia laboriosam atque explicabo eligendi quod beatae culpa molestias architecto inventore.</p>
                 </div>
             </article>
 
-            <article>
+            <article class="container">
                 <div class="titleArticle">
                     <span class="date">02 de jul, 2021</span>
-                    <img src="./img/heart-regular.svg" alt="Pesquisar" width="15px" height="15px">    
+                    <span class="iconify icon-search" data-inline="false" data-icon="ant-design:search-outlined"></span>
                 </div>
                 <div class="textArticle">
-                    <h3>John McAffe, criador do antivirus McAffe morre </h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quas molestiae consequatur corrupti perferendis, tenetur earum ea eius vitae quia laboriosam atque explicabo eligendi quod beatae culpa molestias architecto inventore.</p>
+                    <h3 class="title">John McAffe, criador do antivirus McAffe morre </h3>
+                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quas molestiae consequatur corrupti perferendis, tenetur earum ea eius vitae quia laboriosam atque explicabo eligendi quod beatae culpa molestias architecto inventore.</p>
                 </div>
             </article>
         </div>
     </main>
+    <script src="./scripts/script.js"></script>
+    <script src="https://unpkg.com/scrollreveal"> </script>
+    <script>
+    const scroll = ScrollReveal({
+            origin: 'top',
+            distance: '50px',
+            duration: 2000,
+            reset: true
+        })
+
+        ScrollReveal().reveal('.container', {delay: 200});
+        ScrollReveal().reveal('.titleArticle', {delay: 400});
+        ScrollReveal().reveal('.title', {delay: 500});
+        ScrollReveal().reveal('.description', {delay: 500});
+
+    </script>
 </body>
 </html>
