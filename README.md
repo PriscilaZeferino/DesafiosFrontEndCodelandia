@@ -28,7 +28,7 @@ Bibliotecas Utilizadas
 
 ## Resultado - Desafio 1
 
-![Desafio 1 - Blog](/Resultados/Desafio1.png)
+![Desafio 1 - Blog](/Resultados/Desafio1.gif)
 
 
 Bibliotecas Utilizadas
