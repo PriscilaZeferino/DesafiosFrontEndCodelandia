@@ -33,8 +33,8 @@ Bibliotecas Utilizadas
 
 ## Resultado
 
-![Desafio 1 - Blog](https://github.com/PriscilaZeferino/DesafiosCodelandia/blob/main/Resultado%20dos%20Desafios%20-%20Imagens/Desafio1.png)
-![Desafio 2 - Jordan Shoes](https://github.com/PriscilaZeferino/DesafiosCodelandia/blob/main/Resultado%20dos%20Desafios%20-%20Imagens/Desafio2.gif)
+![Desafio 1 - Blog](/Resultados/Desafio1.png)
+![Desafio 2 - Jordan Shoes](Resultados/Desafio2.gif)
 
 ## Autora
 
