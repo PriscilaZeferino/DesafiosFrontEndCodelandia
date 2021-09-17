@@ -16,7 +16,11 @@ Bibliotecas Utilizadas
 
 - [ScrollReveal](https://scrollrevealjs.org/guide/customization.html)
 
-## Desafio #1 - Jordan Shoes
+## Resultado - Desafio 1
+
+![Desafio 1 - Blog](/Resultados/Desafio1.gif)
+
+## Desafio #2 - Jordan Shoes
 
 - Desenvolver o site de uma loja de tênis Jordan com layout responsivo e animação. 
 
@@ -26,11 +30,6 @@ Bibliotecas Utilizadas
 - CSS
 - JavaScript 
 
-## Resultado - Desafio 1
-
-![Desafio 1 - Blog](/Resultados/Desafio1.gif)
-
-
 Bibliotecas Utilizadas
 
 - [ScrollReveal](https://scrollrevealjs.org/guide/customization.html)
@@ -39,6 +38,19 @@ Bibliotecas Utilizadas
 ## Resultado - Desafio 2
 
 ![Desafio 2 - Jordan Shoes](Resultados/Desafio2.gif)
+
+## Desafio #3 
+
+- Desenvolver uma Landpage
+
+## Tecnologias utilizadas
+
+- Html
+- CSS
+
+## Resultado - Desafio 3
+
+![Desafio 3 - Landpage](Resultados/Desafio3.gif)
 
 ## Autora
 
