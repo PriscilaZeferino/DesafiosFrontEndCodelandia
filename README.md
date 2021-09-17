@@ -26,14 +26,18 @@ Bibliotecas Utilizadas
 - CSS
 - JavaScript 
 
+## Resultado - Desafio 1
+
+![Desafio 1 - Blog](/Resultados/Desafio1.png)
+
+
 Bibliotecas Utilizadas
 
 - [ScrollReveal](https://scrollrevealjs.org/guide/customization.html)
 - [TypedJS](https://mattboldt.com/demos/typed-js/)
 
-## Resultado
+## Resultado - Desafio 2
 
-![Desafio 1 - Blog](/Resultados/Desafio1.png)
 ![Desafio 2 - Jordan Shoes](Resultados/Desafio2.gif)
 
 ## Autora
