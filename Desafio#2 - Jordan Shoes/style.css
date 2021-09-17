@@ -79,7 +79,7 @@ body {
 
   justify-content: space-between;
 
-  font-size: 1rem;
+  font-size: 16px;
   padding-top: 0.906rem;
   padding-bottom: 0.906rem;
 
@@ -107,10 +107,18 @@ header.header-title p {
 
 }
 
-div .header-img {
+ .header-img {
   background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url('./img/wallpaper.jpeg');
   background-size: cover;
   color: var(--bgSite);
+  /* min-width: 500px; */
+  min-height: 378px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
 .header-img h3 {
@@ -185,11 +193,6 @@ ul {
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
-  /* align-items: center;
-  justify-content: space-around;
-  flex-wrap: wrap;  */
-
-  /* flex-direction:row; */
 
   margin: auto;
   padding: auto;
@@ -417,6 +420,12 @@ footer {
   
     font-size: 1.125rem;
     line-height: 196.19%;
+  }
+
+  .content {
+    padding-left: 6.25rem;
+    padding-right: 6.25rem;
+
   }
 
   ul {
