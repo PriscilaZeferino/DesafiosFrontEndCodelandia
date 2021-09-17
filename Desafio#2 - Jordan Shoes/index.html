@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/variaveis.css">
     <link rel="stylesheet" href="./styles/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+
 </head>
 <body>
     <div class="container">
@@ -20,9 +23,15 @@
             </div>
             <div class="header">
                 <div class="header-block">
-                    <h2>A melhor loja de Jordan</h2>
-                    <p>O tênis Jordan é fruto de uma velha e forte parceria entre a Nike e o jogador Michael Jordan.</p>    
+                    <div>
+                        <h2>A melhor loja de Jordan</h2>
+                        <p id="typed"></p>
+                    </div>
                 </div>
+                <div id="typed-strings">
+                    <p>O tênis Jordan é fruto de uma velha e forte parceria entre a Nike e o jogador Michael Jordan.</p>            
+                </div>
+      
           </div>
             <div class="content">
                 <section>
@@ -83,5 +92,24 @@
             </footer>
         </main>
     </div>
+    <script>
+        var typed = new Typed('#typed', {
+            stringsElement: '#typed-strings',
+            typeSpeed: 30
+        });
+    </script>
+
+    <script>
+            const sr = ScrollReveal({
+                origin: 'top',
+                distance: '50px',
+                duration: 2000,
+                reset: true
+            });
+    
+            ScrollReveal().reveal('article', { delay: 300 });
+            ScrollReveal().reveal('img', { delay: 400 });
+ 
+    </script>
 </body>
 </html>
