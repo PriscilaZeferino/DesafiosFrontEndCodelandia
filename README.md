@@ -10,11 +10,31 @@ Desafio #1 do Codelândia proposto pelo [Iuri Code](https://github.com/iuricode/
 
 - Html
 - CSS
-- JavaScript (Ainda não implementado)
+- JavaScript 
+
+Bibliotecas Utilizadas
+
+- [ScrollReveal](https://scrollrevealjs.org/guide/customization.html)
+
+## Desafio #1 - Jordan Shoes
+
+- Desenvolver o site de uma loja de tênis Jordan com layout responsivo e animação. 
+
+## Tecnologias utilizadas
+
+- Html
+- CSS
+- JavaScript 
+
+Bibliotecas Utilizadas
+
+- [ScrollReveal](https://scrollrevealjs.org/guide/customization.html)
+- [TypedJS](https://mattboldt.com/demos/typed-js/)
 
 ## Resultado
 
-![Desafio 1 - Blog](Desafio1-Codelandia.png)
+![Desafio 1 - Blog](https://github.com/PriscilaZeferino/DesafiosCodelandia/blob/main/Resultado%20dos%20Desafios%20-%20Imagens/Desafio1.png)
+![Desafio 2 - Jordan Shoes](https://github.com/PriscilaZeferino/DesafiosCodelandia/blob/main/Resultado%20dos%20Desafios%20-%20Imagens/Desafio2.gif)
 
 ## Autora
 
