@@ -1,0 +1,271 @@
+.container {       
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    height: 100vh;
+}
+
+.imgBlock, .content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+    width: 100%;
+    height: 100%;
+
+}
+
+
+.imgBlock {
+    background-color: var(--white300);
+}
+
+.imgBlock img {
+    width: 70%;
+    height: 70%;
+}
+
+.content {
+    background-color: var(--white);
+}
+
+.header {
+    padding-top: 5rem;
+}
+
+.header h2 {
+    font-family: 'Merriweather', sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.257rem;
+}
+
+.header h1 {
+    font-family: 'Merriweather', sans-serif;
+    font-weight: 700;
+    font-size: 2.6rem;
+    line-height: 2.043rem;
+
+    padding-top: 1.5rem;
+    padding-bottom: 3.438rem;
+}
+
+.form label {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.2rem;
+    color: var(--dark);
+}
+
+.form label input {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.aboutPassword {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+
+    padding-top: 1.75rem;
+    padding-bottom: 1.75rem;
+}
+
+.aboutPassword .check{
+    font-family: 'Lato', serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.68rem;
+    color: var(--dark);
+}
+
+.aboutPassword a {
+    font-family: 'Lato', serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1.68rem;
+    color: var(--blue);
+}
+
+.aboutPassword .check label {
+    padding-left: 1.2rem;
+}
+
+.form .inputs input, input[type=button] {
+    width: 100%;
+    height: 50px;
+    border: 1px solid var(--input);
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+input {
+    padding: 12px 20px;
+}
+
+input:focus{
+    outline: auto var(--green);
+}
+
+button img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.buttons input[type=button] {
+
+    background-color: var(--green);
+    color: var(--white);
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+
+.buttons input[type=button]:hover, .buttons #btn-login-google:hover {
+    background-color: var(--darkGreen);
+    transition: 0.8s;
+}
+
+a:hover {
+    font-weight: 700;
+    color: var(--darkBlue);
+}
+
+.buttons #btn-login-google {
+
+    margin-top: 1.5rem;
+    padding: 1rem;
+
+    background-color: var(--dark);
+
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: auto;
+    min-height: 50px;
+  
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 1.6rem;
+
+    color: var(--white);
+    align-items: center;
+    justify-content: center;
+    
+    border: 1px solid var(--input);
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.cadastro p {
+    margin-top: 5rem;
+    padding-bottom: -10rem;
+}
+
+.cadastro p {
+    font-family: 'Lato', serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: var(--dark);
+    
+    text-align: center;
+}
+  
+.cadastro a {    
+    color: var(--blue);
+}
+
+@media (max-width: 286px) {
+
+    .imgBlock {
+        display: none;
+    }
+
+    .container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .header {
+        padding-top: 15rem;
+    }
+    
+    .header h2 {
+        font-family: 'Merriweather', sans-serif;
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 1.257rem;
+    }
+    
+    .header h1 {
+        font-family: 'Merriweather', sans-serif;
+        font-weight: 700;
+        font-size: 1.6rem;
+        line-height: 2.043rem;
+    
+        padding-top: 1.5rem;
+        padding-bottom: 3.438rem;
+    }
+
+
+    .aboutPassword {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    button img {
+        visibility: hidden;
+        width: 0;
+        height: 0;
+        margin-right: 0;
+    }
+
+    .cadastro p {
+        padding-bottom: 2rem;
+    }
+
+}
+
+@media (min-width: 768px) and (orientation:landscape) {
+    .cadastro p {
+        margin-top: 5rem;
+        margin-bottom: 5px;
+    }
+}
+
+
+@media (min-width: 100px) and (max-width:768px){
+    .imgBlock {
+        display: none;
+    }
+
+    .header h2 {
+        font-family: 'Merriweather', sans-serif;
+        font-weight: 400;
+        font-size: 1.6rem;
+        line-height: 1.257rem;
+    }
+    
+    .header h1 {
+        font-family: 'Merriweather', sans-serif;
+        font-weight: 700;
+        font-size: 2.6rem;
+        line-height: 2.043rem;
+
+        padding-top: 1.5rem;
+        padding-bottom: 2.5rem;
+    }
+}
+
+
+

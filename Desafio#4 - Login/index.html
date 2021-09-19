@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de login</title>
+    <!-- <link rel="stylesheet" href="./styles/style.css"> -->
+    <link rel="stylesheet" href="./styles/variaveis.css">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/style.css">
+
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <div class="container">
+        <div class="imgBlock">
+            <img src="./image/image.svg" alt="grupo de pessoas" srcset="">
+        </div>
+        <div class="content">
+            <div class="form">
+                <Header class="header">
+                    <h2>Bem vindo de volta</h2>
+                    <h1>Faça login na sua conta</h1>
+                </Header>
+                <main>
+                    <form action="">
+                        <div class="inputs">
+                            <label for="email">E-mail <br><input type="email" name="email" id="email" autofocus></label>
+                            <br>
+                            <label for="password">Senha <br><input type="password" name="password" id="password" autofocus></label> 
+                        </div>
+                        <div class="aboutPassword">
+                            <div class="check">
+                                <input type="checkbox" name="remember-me" id="remember-me">
+                                <label for="checkbox">Lembre de mim</label>
+                            </div>
+                            <a href="#">Esqueceu sua senha?</a>
+                        </div>
+                        <div class="buttons">
+                            <input type="button" value="Entrar" id="btn-login">
+                            <br>
+                            <button id="btn-login-google">                                
+                                    <img src="./image/icon.svg" alt="logotipo do google" id="btn-logo" srcset=""/>
+                                    <p>Ou faça login com o google</p>
+                            </button>
+                    </div>
+                    </form>
+                    <div class="cadastro">
+                        <p>Não tem uma conta? <a href="#">Cadastre-se</a></p>
+                    </div>
+                </main>            
+            </div>
+        </div>
+    </div>
+</body>
+</html>
