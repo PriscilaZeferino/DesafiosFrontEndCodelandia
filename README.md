@@ -2,6 +2,17 @@
  
 Desafio #1 do Codelândia proposto pelo [Iuri Code](https://github.com/iuricode/desafios-codelandia). Um projeto de desafios com intuito de melhorar as suas habilidades fazendo pequenos projetos semanais!
 
+## Sumário
+
+1. [Desafio #1 - Blog](#desafio-1---blog)
+2. [Desafio #2 - Jordan Shoes](#desafio-2---jordan-shoes)
+3. [Desafio #3 - OnePage](#desafio-3---onepage)
+4. [Desafio #4 - Tela de Login](#desafio-4---tela-de-login)
+5. [Status do Projeto](#status-do-projeto)
+6. [Autora](#autora)
+7. [Contato](#contato)
+
+
 ## Desafio #1 - Blog
 
 - Desenvolver um mini-blog com layout responsivo e animação. 
@@ -65,10 +76,16 @@ Bibliotecas Utilizadas
 
 ![Desafio 4 - Login](Resultados/Desafio4.gif)
 
+
+## Status do Projeto
+
+O projeto está atualmente em andamento. 
+
 ## Autora
 
 Feito com 🧡 por Priscila Zeferino.
 
-✉ Contato:
+## Contato
+
 Linkedin: Priscila Zeferino
 E-mail: priscila.zeferino23@gmail.com
